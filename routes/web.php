@@ -38,3 +38,9 @@ Route::get('/bb/b1', function (){
 Route::get('/bb/b2', function (){
    return view("bb.b2");
 });
+
+Route::get('/dd/d1', function (){
+    return view('dd.d1');
+});
+
+
